@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-15T20:12:38.049Z",
+        "line": 2,
+        "name": "To pass valid username and password",
+        "description": "",
+        "id": "to-login--facebook-account;to-pass-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16794748200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To Open Chrome Browser",
+            "match": {
+              "location": "StepDefinition.to_Open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 495961400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Pass valid username and password",
+            "match": {
+              "location": "StepDefinition.to_Pass_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 458174600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Close Chrome Browser",
+            "match": {
+              "location": "StepDefinition.to_Close_Chrome_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-15T20:12:55.883Z",
+        "line": 7,
+        "name": "To pass all data",
+        "description": "",
+        "id": "to-login--facebook-account;to-pass-all-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10886678700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Open Chrome Browser",
+            "match": {
+              "location": "StepDefinition.to_Open_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2643627700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click create new account",
+            "match": {
+              "location": "StepDefinition.to_click_create_new_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 526398700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To Close Chrome Browser",
+            "match": {
+              "location": "StepDefinition.to_Close_Chrome_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To login  facebook account",
+    "description": "",
+    "id": "to-login--facebook-account",
+    "keyword": "Feature",
+    "uri": "file:loginfunction.feature",
+    "tags": []
+  }
+]
